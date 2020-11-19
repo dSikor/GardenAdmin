@@ -18,4 +18,34 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
+    grid-template-areas:
+        "tittlePage tittlePage"
+        "element1 element2"
+        "element3 element4"
+
+}
+
+.tittlePage {
+    background: blue;
+    grid-area: tittlePage;
+}
+
+.element1 {
+    background-color: yellow;
+    grid-area: element1;
+}
+
+.element2 {
+    background-color: rgb(20, 196, 240);
+    grid-area: element2;
+}
+
+.element3 {
+    background-color: rgb(20, 240, 20);
+    grid-area: element3;
+}
+
+.element4 {
+    background-color: rgb(240, 53, 20);
+    grid-area: element4;
 }
