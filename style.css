@@ -9,10 +9,15 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+
+    /* height: 100%; */
 }
+
 
 .container {
     display: grid;
+    justify-content: center;
+    align-content: center;
     width: 50vh;
     height: 50vh;
     grid-template-columns: 1fr 1fr;
@@ -21,7 +26,13 @@ body {
     grid-template-areas:
         "tittlePage tittlePage"
         "element1 element2"
-        "element3 element4"
+        "element3 element4";
+
+    row-gap: 1.0rem;
+    column-gap: 1.0rem;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
