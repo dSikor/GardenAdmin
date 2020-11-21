@@ -37,7 +37,7 @@ body {
 }
 
 .tittlePage {
-    background: blue;
+    background: none;
     grid-area: tittlePage;
 }
 
@@ -47,17 +47,17 @@ body {
 }
 
 .element2 {
-    background-color: rgb(20, 196, 240);
+    /* background-color: rgb(20, 196, 240); */
     grid-area: element2;
 }
 
 .element3 {
-    background-color: rgb(20, 240, 20);
+    /* background-color: rgb(20, 240, 20); */
     grid-area: element3;
 }
 
 .element4 {
-    background-color: rgb(240, 53, 20);
+    /* background-color: rgb(240, 53, 20); */
     grid-area: element4;
 }
 
