@@ -42,7 +42,7 @@ body {
 }
 
 .element1 {
-    background-color: yellow;
+    /* background-color: yellow; */
     grid-area: element1;
 }
 
