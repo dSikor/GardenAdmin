@@ -60,3 +60,133 @@ body {
     background-color: rgb(240, 53, 20);
     grid-area: element4;
 }
+
+
+
+a.element1 {
+    display: inline-block;
+    padding: 1.5em 1.6em;
+    border: 0.1em solid #000000;
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    background-color: none;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+
+a.element1:hover {
+    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.element1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+
+
+a.element2 {
+    display: inline-block;
+    padding: 1.5em 1.6em;
+    border: 0.1em solid #000000;
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    background-color: none;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+
+a.element2:hover {
+    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.element2 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+
+a.element3 {
+    display: inline-block;
+    padding: 1.5em 1.6em;
+    border: 0.1em solid #000000;
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    background-color: none;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+
+a.element3:hover {
+    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.element3 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+
+a.element4 {
+    display: inline-block;
+    padding: 1.5em 1.6em;
+    border: 0.1em solid #000000;
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 1.5em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    background-color: none;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+
+a.element4:hover {
+    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.element4 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
