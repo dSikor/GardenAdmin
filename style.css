@@ -80,6 +80,9 @@ body {
     transition: all 0.15s;
 }
 
+.element1 p {
+    margin-bottom: 0.4em;
+}
 
 a.element1:hover {
     text-shadow: 0 0 2em rgba(255, 255, 255, 1);
