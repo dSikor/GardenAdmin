@@ -38,6 +38,8 @@ body {
 
 .container__tittlePage {
     background: none;
+    font-size: 30px;
+    text-align: center;
     grid-area: tittlePage;
 }
 
