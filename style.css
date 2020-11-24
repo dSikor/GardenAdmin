@@ -84,7 +84,8 @@ body {
     margin-bottom: 0.4em;
 }
 
-a.element1:hover {
+
+.element1:hover {
     text-shadow: 0 0 2em rgba(255, 255, 255, 1);
     color: #FFFFFF;
     border-color: #FFFFFF;
