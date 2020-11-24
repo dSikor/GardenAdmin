@@ -92,7 +92,7 @@ body {
 }
 
 @media all and (max-width:30em) {
-    a.element1 {
+    .element1 {
         display: block;
         margin: 0.4em auto;
     }
@@ -100,10 +100,10 @@ body {
 
 
 
-a.element2 {
+.element2 {
     display: inline-block;
     padding: 1.5em 1.6em;
-    border: 0.1em solid #000000;
+    border: 0.3em solid #000000;
     margin: 0 0.2em 0.2em 0;
     border-radius: 1.5em;
     box-sizing: border-box;
@@ -118,24 +118,29 @@ a.element2 {
 }
 
 
-a.element2:hover {
+.element2 p {
+    margin-bottom: 0.4em;
+}
+
+
+.element2:hover {
     text-shadow: 0 0 2em rgba(255, 255, 255, 1);
     color: #FFFFFF;
     border-color: #FFFFFF;
 }
 
 @media all and (max-width:30em) {
-    a.element2 {
+    .element2 {
         display: block;
         margin: 0.4em auto;
     }
 }
 
 
-a.element3 {
-    display: inline-block;
+.element3 {
+    display: block;
     padding: 1.5em 1.6em;
-    border: 0.1em solid #000000;
+    border: 0.3em solid #000000;
     margin: 0 0.2em 0.2em 0;
     border-radius: 1.5em;
     box-sizing: border-box;
@@ -150,24 +155,29 @@ a.element3 {
 }
 
 
-a.element3:hover {
+.element3 p {
+    margin-bottom: 0.4em;
+}
+
+
+.element3:hover {
     text-shadow: 0 0 2em rgba(255, 255, 255, 1);
     color: #FFFFFF;
     border-color: #FFFFFF;
 }
 
 @media all and (max-width:30em) {
-    a.element3 {
+    .element3 {
         display: block;
         margin: 0.4em auto;
     }
 }
 
 
-a.element4 {
+.element4 {
     display: inline-block;
     padding: 1.5em 1.6em;
-    border: 0.1em solid #000000;
+    border: 0.3em solid #000000;
     margin: 0 0.2em 0.2em 0;
     border-radius: 1.5em;
     box-sizing: border-box;
@@ -182,14 +192,19 @@ a.element4 {
 }
 
 
-a.element4:hover {
+.element4 p {
+    margin-bottom: 0.4em;
+}
+
+
+.element4:hover {
     text-shadow: 0 0 2em rgba(255, 255, 255, 1);
     color: #FFFFFF;
     border-color: #FFFFFF;
 }
 
 @media all and (max-width:30em) {
-    a.element4 {
+    .element4 {
         display: block;
         margin: 0.4em auto;
     }
