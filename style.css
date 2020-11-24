@@ -63,7 +63,7 @@ body {
 
 
 
-a.element1 {
+.element1 {
     display: inline-block;
     padding: 1.5em 1.6em;
     border: 0.1em solid #000000;
