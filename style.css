@@ -220,7 +220,7 @@ body {
         width: 70vh;
         height: 95vh;
         grid-template-columns: 0.5fr;
-        grid-template-rows: 0.8fr 0.02fr 0.02fr 0.02fr 0.02fr;
+        grid-template-rows: 0.3fr 0.02fr 0.02fr 0.02fr 0.02fr;
         grid-template-areas:
             "tittlePage"
             "element1"
