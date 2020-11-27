@@ -232,4 +232,22 @@ body {
         column-gap: 1.0rem;
         margin-top: 0.6%;
     }
+
+
+    .element1 {
+        padding: 1em 1em;
+    }
+
+    .element2 {
+        padding: 1em 1em;
+    }
+
+    .element3 {
+        padding: 1em 1em;
+    }
+
+    .element4 {
+        padding: 1em 1em;
+    }
+
 }
