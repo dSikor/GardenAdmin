@@ -80,6 +80,8 @@ body {
     background-color: none;
     text-align: center;
     transition: all 0.15s;
+    opacity: 0;
+    transition: opacity 3s;
 }
 
 .element1 p {
