@@ -95,6 +95,13 @@ body {
     border-color: #FFFFFF;
 }
 
+.element1--show {
+    /* display: inline-block; */
+    opacity: 1;
+    /* transition: opacity 1s; */
+}
+
+
 @media all and (max-width:30em) {
     .element1 {
         display: block;
