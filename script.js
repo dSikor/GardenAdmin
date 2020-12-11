@@ -23,3 +23,5 @@ items.forEach((item) => item.addEventListener("mouseout", deleteRotate5deg))
 
 
 
+
+var ctx = document.getElementById('chart').getContext('2d');
