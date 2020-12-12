@@ -1,1 +1,57 @@
 .container {
+
+    width: 100vh;
+    height: 70vh;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0.5fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-areas:
+        "tittlePage tittlePage"
+        "product1 chart"
+        "product2 chart"
+        "product3 chart"
+        "product4 chart"
+        "product5 chart";
+    row-gap: 1.0rem;
+    column-gap: 1.0rem;
+    border: 0.3em solid #000000;
+}
+
+
+.container__tittlePage {
+    background: none;
+    font-size: 30px;
+    text-align: center;
+    grid-area: tittlePage;
+    border: 0.3em solid #000000;
+}
+
+
+.element1 {
+    grid-area: product1;
+    border: 0.3em solid #000000;
+}
+
+.element2 {
+    grid-area: product2;
+    border: 0.3em solid #000000;
+}
+
+.element3 {
+    grid-area: product3;
+    border: 0.3em solid #000000;
+}
+
+.element4 {
+    grid-area: product4;
+    border: 0.3em solid #000000;
+}
+
+.element5 {
+    grid-area: product5;
+    border: 0.3em solid #000000;
+}
+
+.chartElement {
+    grid-area: chart;
+    border: 0.3em solid #000000;
+}
