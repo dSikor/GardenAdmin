@@ -24,8 +24,8 @@
 
 .container__tittlePage {
     background: none;
-    font-size: 30px;
-    text-align: center;
+    font-size: 20px;
+    /* text-align: center; */
     grid-area: tittlePage;
     border: 0.3em solid #000000;
 }
