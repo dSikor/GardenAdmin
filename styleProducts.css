@@ -3,6 +3,10 @@
     display: grid;
     width: 80vw;
     height: 100vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.2fr 0.2fr 0.2fr 0.2fr;
     grid-template-areas:
         "tittlePage tittlePage"
         "product1 chart"
