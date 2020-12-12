@@ -1,9 +1,8 @@
 .container {
 
-    width: 100vh;
-    height: 70vh;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 0.5fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    display: grid;
+    width: 80vw;
+    height: 100vh;
     grid-template-areas:
         "tittlePage tittlePage"
         "product1 chart"
