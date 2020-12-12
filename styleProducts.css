@@ -16,7 +16,9 @@
         "product5 chart";
     row-gap: 1.0rem;
     column-gap: 1.0rem;
-    border: 0.3em solid #000000;
+    /* border: 0.3em solid #000000; */
+    padding: 5% 5%;
+    margin-top: 0.2%;
 }
 
 
