@@ -1,6 +1,3 @@
-// const itemsProducts = [...document.getElementsByClassName("farmerOption")];
-// itemsProducts.forEach((item) => item.addEventListener("mouseout", deleteRotate5deg))
-
 
 var ctx = document.getElementById('myChart').getContext('2d');
 // var chart = new Chart(ctx, {
@@ -51,5 +48,3 @@ var myPieChart = new Chart(ctx, {
                 }
             }
 });
-
-
