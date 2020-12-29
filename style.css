@@ -33,7 +33,7 @@ body {
 
 .container__tittlePage {
     background: none;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     grid-area: tittlePage;
 }
