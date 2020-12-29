@@ -1,77 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+body {
+    background-image: url(graphic/garden_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
 .container {
-
-    display: grid;
-    width: 80vw;
     height: 100vh;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    display: grid;
+
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    justify-items: center;
+
     grid-template-areas:
-        "tittlePage tittlePage"
-        "product1 chart"
-        "product2 chart"
-        "product3 chart"
-        "product4 chart"
-        "product5 chart";
-    row-gap: 1.0rem;
-    column-gap: 1.0rem;
-    /* border: 0.3em solid #000000; */
-    padding: 5% 5%;
-    margin-top: 0.2%;
+        "tittleSubPage tittleSubPage"
+        "animalsOption chart"
+        "plantsOption chart"
+        "fruitOption chart";
+    row-gap: 10px;
+    padding-top: 3%;
+
+    /* border: solid red; */
 }
-
-
-.container__tittlePage {
-    background: none;
-    font-size: 20px;
-    /* text-align: center; */
-    grid-area: tittlePage;
-    border: 0.3em solid #000000;
-}
-
-.container__tittlePage p {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
 
 .element1 {
-    grid-area: product1;
-
+    background: none;
+    font-size: 30px;
+    text-align: center;
+    grid-area: tittleSubPage;
 }
 
-.element2 {
-    grid-area: product2;
 
+.element2 {
+    grid-area: animalsOption;
 }
 
 .element3 {
-    grid-area: product3;
-
+    grid-area: plantsOption;
 }
 
 .element4 {
-    grid-area: product4;
-
+    grid-area: fruitOption;
 }
 
 .element5 {
-    grid-area: product5;
-
-}
-
-.chartElement {
     grid-area: chart;
-
 }
+
 
 .farmerOption {
     display: inline-block;
-    border: 0.3em solid #000000;
-    border-radius: 0.5em;
-    /* padding: 1.5em 1.6em;
+    padding: 1.5em 1.6em;
     border: 0.3em solid #000000;
     margin: 0 0.2em 0.2em 0;
     border-radius: 1.5em;
@@ -83,5 +72,4 @@
     text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
     background-color: none;
     text-align: center;
-    opacity: 0; */
 }
