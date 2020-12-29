@@ -18,7 +18,7 @@ body {
     align-content: center;
     width: 40vw;
     height: 70vh;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.2fr 0.2fr;
     grid-template-areas:
         "tittlePage tittlePage"
