@@ -28,7 +28,6 @@ body {
     row-gap: 10px;
     padding-top: 3%;
 
-    /* border: solid red; */
 }
 
 .element1 {
@@ -38,20 +37,7 @@ body {
     grid-area: tittleSubPage;
 }
 
-
 .element2 {
-    grid-area: animalsOption;
-}
-
-.element3 {
-    grid-area: plantsOption;
-}
-
-.element4 {
-    grid-area: fruitOption;
-}
-
-.element5 {
     grid-area: chart;
 }
 
