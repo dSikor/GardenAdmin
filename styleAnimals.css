@@ -55,19 +55,6 @@ body {
     grid-area: chart;
 }
 
-
-.farmerOption {
-    display: inline-block;
-    padding: 1.5em 1.6em;
-    border: 0.3em solid #000000;
-    margin: 0 0.2em 0.2em 0;
-    border-radius: 1.5em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #000000;
-    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-    background-color: none;
-    text-align: center;
+.element3 {
+    grid-area: back;
 }
