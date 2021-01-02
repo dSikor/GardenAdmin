@@ -24,8 +24,7 @@ body {
     grid-template-areas:
         "tittleSubPage"
         "chart"
-        "chart"
-        "fruitOption chart";
+        "back";
     row-gap: 10px;
     padding-top: 3%;
 
