@@ -19,11 +19,12 @@ body {
     width: 40vw;
     height: 70vh;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 0.2fr 0.2fr;
+    /* grid-template-rows: 0.5fr 0.2fr 0.2fr; */
+    grid-template-rows: 0.5fr 0.2fr;
     grid-template-areas:
         "tittlePage tittlePage"
-        "element1 element2"
-        "element3 element4";
+        "element1 element2";
+    /* "element3 element4"; */
     row-gap: 1.0rem;
     column-gap: 1.0rem;
     margin-top: 10%;
@@ -97,13 +98,14 @@ body {
         width: 70vh;
         height: 130vh;
         grid-template-columns: 0.5fr;
-        grid-template-rows: 0.3fr 0.02fr 0.02fr 0.02fr 0.02fr;
+        /* grid-template-rows: 0.3fr 0.02fr 0.02fr 0.02fr 0.02fr; */
+        grid-template-rows: 0.3fr 0.02fr 0.02fr;
         grid-template-areas:
             "tittlePage"
             "element1"
-            "element2"
-            "element3"
-            "element4";
+            "element2";
+        /* "element3"
+            "element4"; */
         row-gap: 0.4rem;
         column-gap: 1.0rem;
         margin-top: 0.6%;
