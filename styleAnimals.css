@@ -38,6 +38,11 @@ body {
     grid-area: chart;
 }
 
+canvas {
+    border: 1px solid black;
+    background-color: rgba(142, 143, 72, 0.712);
+}
+
 .element3 {
 
     grid-area: back;
