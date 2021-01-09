@@ -1,9 +1,6 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 
-
-
-var myPieChart = new Chart(ctx, {
-    type: 'pie',
+var myBarChart = new Chart(ctx, {
     data: {
                 labels: ['Kury','Krowy','Zwierzeta domowe'],
                 datasets: [{
