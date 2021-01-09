@@ -1,28 +1,52 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 
 var myBarChart = new Chart(ctx, {
+    type: 'bar',
     data: {
-                labels: ['Kury','Krowy','Zwierzeta domowe'],
-                datasets: [{
-                    label: 'My First dataset',
-                    backgroundColor: ["#074D9", "#FF4136","rgb(23, 2, 132)"],
-                    hoverBorderColor: ["#074D2", "#FF4139","rgb(23, 2, 135)"],
-                    borderColor: 'rgb(55, 99, 132)',
-                    data: [40,55,5],
-                }]
-            },
+        labels: ["2015-01", "2015-02", "2015-03"],
+        datasets: [{
+            label: 'My First dataset',
+            data: [10, 20, 30],
+            backgroundColor: [
+                'rgba(0,0,0)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)'
+            ],
+            borderColor: [
+                'rgba(0,0,0)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)'
+            ],
+            borderSkipped:['bottom','left','right'],
+            borderWidth: 1,
+           
+            
+        }]
+    },
+    options: {
         
-            options: {
-                responsive: true,
-                title:{
-                    display: true,
-                    text: "Zwierzęta",
-                    fontColor: 'black'
-                },
-                legend: {
-                    labels: {
-                        fontColor: 'black'
-                    }
-                }
+        responsive: false,
+        scales: {
+          xAxes: [{
+            ticks: {
+                fontColor: "black",
+                fontSize: 15,
+            //   maxRotation: 90,
+            //   minRotation: 80
+            },
+              gridLines: {
+              offsetGridLines: true, // à rajouter
             }
+          }],
+          yAxes: [{
+            ticks: {
+              fontColor: "black",
+              fontSize: 15,
+              fontStyle: 'normal',
+              beginAtZero: true
+            }
+          }]
+        }
+          
+      },
 });
