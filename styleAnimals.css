@@ -18,7 +18,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto 0.3fr;
     justify-items: center;
 
     grid-template-areas:
