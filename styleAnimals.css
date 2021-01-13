@@ -47,4 +47,9 @@ canvas {
 .element3 {
 
     grid-area: back;
+    border: 0.3em solid #000000;
+    border-radius: 1.5em;
+    margin-bottom: 5%;
+}
+
 }
