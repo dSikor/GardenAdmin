@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 30px;
 }
 
 body {
@@ -12,7 +11,6 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
-
 
 .container {
     height: 100vh;
@@ -27,47 +25,28 @@ body {
         "Options Chart";
     row-gap: 10px;
     padding-top: 3%;
-
-    /* border: solid red; */
 }
 
 .element1 {
     background: none;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    grid-area: tittleSubPage;
+    grid-area: TittleSubPage;
 }
 
-
 .element2 {
-    grid-area: animalsOption;
+    grid-area: Options;
 }
 
 .element3 {
-    grid-area: plantsOption;
+    grid-area: Chart;
 }
 
-.element4 {
-    grid-area: fruitOption;
-}
-
-.element5 {
-    grid-area: chart;
-}
-
-
-.farmerOption {
-    display: inline-block;
-    padding: 1.5em 1.6em;
-    border: 0.3em solid #000000;
-    margin: 0 0.2em 0.2em 0;
-    border-radius: 1.5em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #000000;
-    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+.element2 button {
+    font-size: 20px;
     background-color: none;
-    text-align: center;
+    border: 1px solid green;
+    padding: 10px 24px;
+    cursor: pointer;
+    display: block;
 }
