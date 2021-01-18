@@ -23,10 +23,8 @@ body {
     justify-items: center;
 
     grid-template-areas:
-        "tittleSubPage tittleSubPage"
-        "animalsOption chart"
-        "plantsOption chart"
-        "fruitOption chart";
+        "TittleSubPage TittleSubPage"
+        "Options Chart";
     row-gap: 10px;
     padding-top: 3%;
 
