@@ -6,7 +6,7 @@ var myBarChart = new Chart(ctx, {
         labels: ["2015-01", "2015-02", "2015-03"],
         datasets: [{
             label: 'My First dataset',
-            data: [10, 20, 30],
+            data: [34, 22, 50, 10],
             backgroundColor: [
                 'rgba(0,0,0)',
                 'rgba(54, 162, 235, 0.2)',
