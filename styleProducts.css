@@ -23,7 +23,7 @@ body {
     grid-template-areas:
         "TittleSubPage TittleSubPage"
         "Options Chart";
-    row-gap: 10px;
+    row-gap: 50px;
     padding-top: 3%;
 }
 
