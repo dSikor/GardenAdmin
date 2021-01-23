@@ -40,6 +40,7 @@ body {
 }
 
 .element3 {
+    width: 98%;
     grid-area: Chart;
 }
 
