@@ -45,7 +45,8 @@ body {
 }
 
 .element2 button {
-    font-size: 20px;
+    width: 100%;
+    font-size: 70%;
     background-color: none;
     border: 1px solid green;
     padding: 10px 24px;
